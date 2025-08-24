@@ -57,8 +57,8 @@ D --> E[Result App (Node.js)]
 
 ### 2️⃣ Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Imyashmathur/voting-app-microservices
+cd voting-app-microservices
 ```
 
 ---
@@ -100,7 +100,10 @@ docker compose down
 ---
 
 ## 📸 Screenshots
-_Add screenshots of Vote and Result UI here._
+<img width="1850" height="907" alt="image" src="https://github.com/user-attachments/assets/192ff073-eb09-4111-a3c0-f1849c2aaf9b" />
+
+
+<img width="1836" height="910" alt="Screenshot 2025-08-24 113257" src="https://github.com/user-attachments/assets/d87f57ef-3145-4621-8e52-b54b93828ab5" />
 
 ---
 
