@@ -26,17 +26,26 @@ It allows users to **vote between two options** and displays **real-time results
   - **PostgreSQL** → Stores vote counts  
 
 ---
-
 ## 📂 Architecture
-```mermaid
-graph TD
-A[Vote App (Flask)] -->|Send Vote| B[Redis Queue]
-B --> C[Worker Service]
-C -->|Insert Data| D[PostgreSQL DB]
-D --> E[Result App (Node.js)]
-```
 
----
+```mermaid
+graph LR
+    subgraph Frontend
+        A[Vote App (Flask)]
+        E[Result App (Node.js)]
+    end
+
+    subgraph Backend
+        B[Redis Queue]
+        C[Worker Service]
+        D[PostgreSQL DB]
+    end
+
+    A -->|Send Vote| B
+    B --> C
+    C -->|Insert Data| D
+    D --> E
+
 
 ## ✅ Features
 ✔️ Microservices-based  
