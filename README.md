@@ -26,6 +26,7 @@ It allows users to **vote between two options** and displays **real-time results
   - **PostgreSQL** → Stores vote counts  
 
 ---
+
 ## 📂 Architecture
 
 ```mermaid
@@ -45,6 +46,7 @@ graph LR
     B --> C
     C -->|Insert Data| D
     D --> E
+
 
 
 ## ✅ Features
