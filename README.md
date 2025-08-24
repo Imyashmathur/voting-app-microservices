@@ -128,4 +128,4 @@ MIT License © 2025
 
 ---
 
-✨ **If you like this project, give it a ⭐ on [GitHub](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)!**
+✨ **If you like this project, give it a ⭐ on [GitHub]((https://github.com/Imyashmathur/voting-app-microservices)!**
